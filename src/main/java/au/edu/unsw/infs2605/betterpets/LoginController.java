@@ -12,6 +12,8 @@ import javafx.fxml.FXML;
 public class LoginController {
     
     Database database = new Database();
+    
+    // Declare FXML elements and add relevant imports
 
     @FXML
     private void handleLoginButtonAction(ActionEvent event) throws IOException, SQLException {
