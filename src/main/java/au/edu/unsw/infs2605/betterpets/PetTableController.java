@@ -36,11 +36,12 @@ public class PetTableController {
     @FXML
     public void initialize() throws SQLException {
         // Get a list of all of pets in the database
-        ObservableList<Pet> petsList;
+        ObservableList<Pet> petsList = database.getPets();
         
         // Set this list into the TableView
         
         // Set all the columns in to tableview columns
         
     }
+    
 }
