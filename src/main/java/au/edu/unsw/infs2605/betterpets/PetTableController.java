@@ -1,8 +1,6 @@
 package au.edu.unsw.infs2605.betterpets;
 
-import java.io.IOException;
 import java.sql.SQLException;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
