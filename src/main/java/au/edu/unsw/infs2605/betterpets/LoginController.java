@@ -14,6 +14,7 @@ public class LoginController {
     Database database = new Database();
     
     // Declare FXML elements and add relevant imports
+    // (Hint: implement and use the same IDs in the handleLoginButtonAction function)
 
     @FXML
     private void handleLoginButtonAction(ActionEvent event) throws IOException, SQLException {
