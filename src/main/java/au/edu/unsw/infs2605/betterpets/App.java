@@ -32,9 +32,7 @@ public class App extends Application {
 
     private static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
-        Parent root = fxmlLoader.load();
-        root.setStyle("-fx-font-family: serif");
-        return root;
+        return fxmlLoader.load();
     }
     ///Hello
     public static void main(String[] args) {
