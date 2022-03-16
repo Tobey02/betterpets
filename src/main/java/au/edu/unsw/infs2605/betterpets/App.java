@@ -20,7 +20,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException, SQLException {
         // TODO: Create and setup the database (use a method in Database.java!)
         
-        stage.setTitle("Pets Finder");
+        stage.setTitle("Shrimp finder");
         scene = new Scene(loadFXML("loginscreen"), 640, 480);
         stage.setScene(scene);
         stage.show();
@@ -34,7 +34,7 @@ public class App extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
         return fxmlLoader.load();
     }
-
+    ///Hello
     public static void main(String[] args) {
         launch();
     }

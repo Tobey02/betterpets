@@ -46,6 +46,7 @@ public class Database {
         String[] species = {"cat", "cat", "frog", "dog"};
         String[] colour = {"grey", "white", "green", "brown"};
         String[] owner = {"Andrew", "Lenny", "Hatherine", "Phoebe"};
+        
 
         // Loop to insert via sanitised prepared statements
         for (int i = 0; i < 4; i++) {
