@@ -15,5 +15,4 @@ public class Pet {
     // Create a constructor for a Pet class
     
     // Create getters and setters for a Pet class
-    
 }
