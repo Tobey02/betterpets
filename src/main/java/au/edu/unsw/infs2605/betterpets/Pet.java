@@ -11,8 +11,17 @@ public class Pet {
     protected String species;
     protected String colour;
     protected String owner;
+    
+    //Createv a constructor for the PEt class 
+    public Pet(int id, String name, String species, String colour, String owner){
+        this.id = id; 
+        this.name = name; 
+        this.species = species; 
+        this.colour = colour; 
+        this.owner = owner; 
+    }
 
-    // Create a constructor for a Pet class
+    
     
     // Create getters and setters for a Pet class
 }
